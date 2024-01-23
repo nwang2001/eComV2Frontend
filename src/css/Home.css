@@ -1,0 +1,71 @@
+.slider-container {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 3em 0;
+}
+
+.slider {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    transform: translateX(0);
+
+}
+
+.slider img {
+    display: none;
+    width: 0px;
+    border-image: linear-gradient(#8fbcf2, #e7a6f4) 30;
+    border-width: 3px;
+    border-style: solid;
+    transform: translateX(0);
+
+}
+
+.slider .active {
+    display: block;
+    width: 75%;
+    height: 100%;
+    transform: translateX(0);
+}
+
+.card {
+    background-color: #f1d4f7;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-image: linear-gradient(#e7a6f4, #8fbcf2) 30;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.welcome,
+.about {
+    text-align: justify;
+    padding: 1em;
+    margin: 1.5em 1em;
+}
+
+.home main {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.home h1,
+.home h2,
+.home p {
+    color: #297fe9;
+}
+
+.home main h1 {
+    font-size: 2em;
+}
+
+.home main h2 {
+    font-size: 1.6em;
+}
+
+.home p {
+    font-size: 1.4em;
+}

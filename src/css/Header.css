@@ -1,0 +1,41 @@
+header {
+    width: 100%;
+    background:  url(../../public/img/background.jpeg);
+    height: 8.3rem;
+}
+
+.logo {
+    height: 5.8em;
+    float: left;
+    margin-left: 1em;
+    padding: 1em 2em;
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+nav ul {
+    display: inline-flex;
+    float: right;
+    font-size: 1.7em;
+    margin: 0 auto;
+}
+
+nav li {
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    margin-right: 0.5em;
+}
+
+nav ul a {
+    display: block;
+    text-decoration: none;
+    padding: 1.7em 0.4em;
+    color: #da46f8;
+}
+
+nav a:hover {
+    color: #c155f3;
+}

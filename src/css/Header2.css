@@ -1,0 +1,40 @@
+.two {
+    background: url(../../public/img/back.png);
+    height: 8.3rem;
+}
+
+.two .logo {
+    height: 5.8em;
+    float: left;
+    margin-left: 1em;
+    padding: 1em 2em;
+}
+
+.two .logo:hover {
+    opacity: 0.8;
+}
+
+.two nav ul {
+    display: inline-flex;
+    float: right;
+    font-size: 1.7em;
+    margin: 0 auto;
+}
+
+.two nav li {
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    margin-right: 0.5em;
+}
+
+.two nav ul a {
+    display: block;
+    text-decoration: none;
+    padding: 1.7em 0.4em;
+    color: #3f94fd;
+}
+
+.two nav a:hover {
+    color: #3f94fd;
+}

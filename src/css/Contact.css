@@ -1,0 +1,56 @@
+.contact h1 {
+    color: #5397ea;
+    margin: 0.7em;
+}
+
+.contact {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contact label {
+    display: block;
+    margin: 1em;
+    color: #6ba8f4;
+    font-size: 1.4em;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 1em;
+    border: 0.2em solid rgb(238, 216, 250);
+    box-sizing: border-box;
+    border-radius: 1em;
+}
+
+.contact input {
+    font-family: inherit;
+    color: #6ba8f4;
+    font-size: 1.2em;
+}
+
+button {
+    height: 3em;
+    width: 10em;
+    background-color: #6ba8f4;
+    border: 0.1em solid rgb(238, 216, 250);
+    font: inherit;
+    font-size: 1.2em;
+    color: rgb(238, 216, 250);
+    margin: 0.5em;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.thanks {
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.thank {
+    width: 240px;
+    height: 170px;
+}
