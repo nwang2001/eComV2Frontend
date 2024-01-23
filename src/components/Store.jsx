@@ -10,7 +10,7 @@ const Products = () => {
 
     useEffect(() => {
         console.log('Fetching data...');
-        fetch('http://localhost:4800/store')
+        fetch('https://ecommerce-v2-backend.onrender.com/store')
             .then(response => response.json())
             .then(data => {
                 console.log('Data received:', data);
