@@ -1,3 +1,7 @@
+nav {
+    display: flex;
+}
+
 .two {
     background: url(../../public/img/back.png);
     height: 8.3rem;
@@ -5,7 +9,6 @@
 
 .two .logo {
     height: 5.8em;
-    float: left;
     margin-left: 1em;
     padding: 1em 2em;
 }
@@ -14,15 +17,18 @@
     opacity: 0.8;
 }
 
+.two .minilogo {
+    visibility: hidden;
+}
+
 .two nav ul {
     display: inline-flex;
-    float: right;
     font-size: 1.7em;
-    margin: 0 auto;
+    margin: 0  0 0 auto;
 }
 
 .two nav li {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     list-style: none;
     padding: 0;
     margin-right: 0.5em;
@@ -37,4 +43,47 @@
 
 .two nav a:hover {
     color: #3f94fd;
+}
+
+@media screen and (max-width: 559px) {
+    .two {
+        width: 100%;
+        height: 4rem;
+    }
+
+    .two .logo {
+        display: none;
+    }
+
+    .two .minilogo {
+        visibility: visible;
+        height: 3.5em;
+        padding: 0 1.5em;
+    }
+
+    .two nav ul {
+        font-size: 0.8em;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 560px) and (max-width: 975px) {
+    .two {
+        width: 100%;
+        height: 5.3rem;
+    }
+
+    .two .logo {
+        display: none;
+    }
+
+    .two .minilogo {
+        visibility: visible;
+        height: 5em;
+        padding: 0 1.5em;
+    }
+
+    .two nav ul {
+        font-size: 1.2em;
+    }
 }

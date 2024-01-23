@@ -1,6 +1,6 @@
 .footer {
-background-image: url(../../public/img/back.png);   
- height: 100%;
+    background-image: url(../../public/img/back.png);
+    height: 100%;
 }
 
 footer ul {
@@ -22,6 +22,7 @@ footer ul {
     justify-content: space-around;
     width: 100%;
 }
+
 .footer .footer-nav a {
     text-decoration: none;
     font-size: 1.3em;
@@ -66,6 +67,7 @@ footer ul {
 .footer input[type=submit] {
     height: 2.2em;
     width: 6em;
+    margin-top: 1em;
     border: 0.1em solid #bed3fa;
     background-color: #f0f0fd;
     font: inherit;
@@ -104,4 +106,41 @@ footer ul {
     color: #74aef4;
     padding: 0.5em;
     margin: 0.5em;
+}
+
+@media screen and (max-width: 559px) {
+
+    .name,
+    .footer-nav,
+    .social,
+    .icons, .footer .bottom-content ul {
+        display: none;
+    }
+
+    .footer .bottom-header {
+        font-size: 1em;
+    }
+
+    .footer label {
+        font-size: 0.8em;
+    }
+    .bottom-links {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 560px) and (max-width: 975px) {
+
+    .name,
+    .footer-nav {
+        display: none;
+    }
+
+    .footer .bottom-header {
+        font-size: 1.3em;
+    }
+
+    .footer label {
+        font-size: 1em;
+    }
 }

@@ -19,7 +19,7 @@ export default function Footer2() {
         <footer className='footer'>
             <div className="bottom-links">
                 <div>
-                    <p className="bottom-header"> Color Splash</p>
+                    <p className="bottom-header name"> Color Splash</p>
                     <ul className="footer-nav">
                         <li>
                             <a href="/">Home</a>
@@ -33,7 +33,7 @@ export default function Footer2() {
                     </ul>
                 </div>
                 <div>
-                    <p className="bottom-header">Socials</p>
+                    <p className="bottom-header social">Socials</p>
                     <ul className="footer-icons">
                         <li>
                             <a href="https://www.facebook.com/">
@@ -89,6 +89,7 @@ export default function Footer2() {
                         <label htmlFor="emailBottom" id="emailBottomLabel">Enter email:</label>
                         <br />
                         <input id="emailBottom" type="text" />
+                        <br />
                         <input type="submit" />
                     </form>
                 </div>

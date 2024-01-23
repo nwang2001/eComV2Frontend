@@ -69,3 +69,30 @@
 .home p {
     font-size: 1.4em;
 }
+
+@media screen and (max-width: 559px) {
+    .home main h1 {
+        font-size: 1.2em;
+        }
+        .home main h2 {
+            font-size: 1em;
+        }
+    
+        .home main p {
+    font-size: 0.8em;
+        }
+}
+
+@media screen and (min-width: 560px) and (max-width: 975px) {
+    .home main h1 {
+        font-size: 1.4em;
+    }
+
+    .home main h2 {
+        font-size: 1.2em;
+    }
+
+    .home main p {
+        font-size: 1em;
+    }
+}
