@@ -22,12 +22,9 @@
     border: 0.2em solid rgb(238, 216, 250);
     box-sizing: border-box;
     border-radius: 1em;
-}
-
-.contact input {
     font-family: inherit;
     color: #6ba8f4;
-    font-size: 1.2em;
+    font-size: 1.2em
 }
 
 button {
